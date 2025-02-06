@@ -24,3 +24,4 @@ docker compose up -d
       - "host.docker.internal:host-gateway"
 # For kestra to work with dbt had to use the ipaddres of postgres
     # found by running: docker inspect postgres-kestr | grep '"IPAddress"'
+    # verify unique ids working by running same data set upload multiple times 
