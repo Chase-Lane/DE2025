@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: direct-tribute-447716-v7
+    schema: chase_lane
+
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
